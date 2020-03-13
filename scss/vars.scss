@@ -1,0 +1,48 @@
+$greyblock:#f3f1ef;
+$blueblock:#3f729b;
+$darkblock:#282b2f;
+$greenblock:#2ebd59;
+$deepdark:#212227;
+$darkplh:#4d4e52;
+
+%followme{
+	.blog_item_container{
+		width: 280px;
+		margin-left: 55px;
+		align-content: center; 
+			h2{
+				text-transform: uppercase;
+				font-size: 20px;
+				padding-bottom: 20px;
+				font-weight: bold;
+				color: white;
+			}
+			p{
+				padding-bottom: 20px;
+				color: white;
+
+			}
+			.follow_me_link{
+				height: 30px;
+				border-radius: 20px;
+				border: 1px solid white;
+				&:hover{
+					background-color: white;
+					transition:1s;
+				}
+					 a{
+					 	display: block;
+					 	text-decoration: none;
+					 	color: white;
+						line-height: 35px;
+						text-align: center;
+						text-transform: uppercase;
+						 &:hover{
+						 	color: $darkblock;
+						 	transition:1s;
+
+						 }
+					 }
+			}
+	}
+}
